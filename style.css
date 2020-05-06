@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+header {
+  background-color: #FFF;
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px lightgray solid;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.mainNavbar {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.mainNavbar img{
+  margin: 7px 20px 0;
+}
+
+ h1{
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #5f6368;
+}
+
+h1:hover {
+  cursor: pointer;
+}
+
+.menu {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu ul li {
+  list-style: none;
+  margin: 0 22px;
+  font-size: 1.1em;
+}
+
+li a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+#onThis {
+  border-bottom: 3px solid #3367d6;
+  color: #3367d6;
+}
+
+#signUpGoogle {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #5f6368;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 80px 20% 50px;
+}
+
+.myQuestion h3 {
+  font-size: 1.5em;
+  margin: 20px 0 25px;
+}
+
+.myQuestion a {
+  text-decoration: none;
+  color: #3367d6;
+}
+
+.myQuestion p {
+  font-size: 1.1em;
+}
