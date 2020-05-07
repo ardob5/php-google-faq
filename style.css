@@ -80,6 +80,10 @@ main {
   margin: 80px 20% 50px;
 }
 
+.counter {
+  margin: 20px;
+}
+
 .myQuestion h3 {
   font-size: 1.5em;
   margin: 20px 0 25px;
